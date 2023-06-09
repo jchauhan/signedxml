@@ -32,5 +32,6 @@ jobs:
         uses: github/codeql-action/init@v2
         with:
           languages: go
+          debug: true
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
